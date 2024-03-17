@@ -103,8 +103,8 @@ function home() {
         <div className='trackpage'>
           <div className='trackpagecont'>
           <p>Your Progress !</p>
-          
-          <div id='graph1'>
+     
+          {/* <div id='graph1'>
            
             <div>
             <Graph>
@@ -122,7 +122,20 @@ function home() {
             
             </div>
 
+          </div> */}
+          <div className='parent'>
+          <div className='child'>
+          <Graph>
+
+          </Graph>
+
+          <Pichart>
+
+          </Pichart>
+         
           </div>
+          </div>
+
           </div>
         </div>
          

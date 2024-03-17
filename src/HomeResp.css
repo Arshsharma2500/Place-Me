@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
 .Home{
     display: flex;
     flex-direction: column;
@@ -51,6 +51,8 @@
     margin-left: 3vw;
     margin-right: 3vw;
     width: 90vw;
+    height: 50vh;
+
     margin-top: 3vh;
 }
 .box div:hover{
@@ -65,8 +67,9 @@
 .trackpagecont{
     display: flex;
     flex-direction: column;
+    width: 100vw;
 }
-#graph1{
+/* #graph1{
     display: flex;
     flex-direction: column;
     width: 86vw;
@@ -80,11 +83,16 @@
     padding-top: 0vh;
     padding-left: 0vw;
     
+} */
+
+.parent{
+    width: 100vw;
 }
-#pichart{
-    /* margin-top: 3vh; */
-    /* z-index: 0; */
+.child{
+    display: flex;
+    flex-direction: column;
 }
+
 .SubscPage{
     margin-top: 20vh;
 }

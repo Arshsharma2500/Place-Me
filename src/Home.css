@@ -225,10 +225,13 @@
   padding-bottom: 5vh;
   
 }
-#graph1{
+/* #graph1{
   background-color: hsla(0, 0%, 53.7%, 0.13);
   border-radius: 7px;
   height: 70vh; 
+  display: flex;
+  flex-direction: row;
+
   
 }
 #pichart{
@@ -256,8 +259,19 @@
   padding-right: 1vw;
 }
 #report p{
-  font-style: var(--fs-head4);
+  font-style: var(--fs-head4); */
+/* } */
+.parent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+.child{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 #dsimg{
   width: 10vw;
   height: 20vh;
