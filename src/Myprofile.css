@@ -52,7 +52,7 @@
 
 .leftbox{
     width: 25vw;
-    background-color: red;
+    /* background-color: red; */
     /* display: flex;
     flex-direction: column; */
 }
@@ -67,7 +67,7 @@
 #stars{
     width: 15vw;
     height: 5vh;
-    background-color: yellow;
+    /* background-color: yellow; */
     margin-left: 5vw;
     margin-top: 3vh;
 }

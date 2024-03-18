@@ -4,6 +4,7 @@ import './Myprofile.css';
 import Graph1 from './ProfGraphone';
 import Graph2 from './ProfGraphtwo';
 import Graph3 from './ProfGraphthree';
+import ProfilePic from './Profilepic';
 function Profile(){
     const [count, setCount] = useState(0)
     return(
@@ -13,7 +14,7 @@ function Profile(){
    
            <div className="leftbox">
             <div id="profilephoto">
-
+            <ProfilePic />
             </div>
             <div id="stars">
 
