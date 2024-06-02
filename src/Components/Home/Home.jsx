@@ -1,23 +1,22 @@
 import { useState } from 'react'
 import './Home.css'
 import './HomeResp.css'
-import gifhome from './assets/homegif.mp4'
-import Graph from './graph.jsx'
-import Pichart from './Picharts.jsx'
-import card1img from './assets/Effective_outreach.png'
-import card2img from './assets/analytics and reporting.png'
-import card3img from './assets/alert and notification.png'
-import card4img from './assets/skill mapping.png'
-import card5img from './assets/systematic recruitment.png';
-import card6img from './assets/data migration.png'
-import overallreport from './assets/overallreportimg.png';
-import placevideo from './assets/Placemevideo.mp4';
-import Gmailicon from './assets/Gmailicon.png';
-import fbicon from './assets/facebook.png'
-import ldinicon from './assets/linkedin.png'
-import githubicon from './assets/github.png'
-import subsicon from './assets/subscimg.png'
-import resline from './assets/footerline.png'
+import Graph from '../Graph/graph.jsx'
+import Pichart from '../Graph/Picharts.jsx'
+import card1img from '../../assets/Effective_outreach.png'
+import card2img from '../../assets/analytics and reporting.png'
+import card3img from '../../assets/alert and notification.png'
+import card4img from '../../assets/skill mapping.png'
+import card5img from '../../assets/systematic recruitment.png';
+import card6img from '../../assets/data migration.png'
+import overallreport from '../../assets/overallreportimg.png';
+import placevideo from '../../assets/Placemevideo.mp4';
+import Gmailicon from '../../assets/Gmailicon.png';
+import fbicon from '../../assets/facebook.png'
+import ldinicon from '../../assets/linkedin.png'
+import githubicon from '../../assets/github.png'
+import subsicon from '../../assets/subscimg.png'
+import resline from '../../assets/footerline.png'
 function home() {
     // const [count, setCount] = useState(0)
   

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './nav.css';
-import logo from './assets/placeMelogo.svg';
+import logo from '../../assets/placeMelogo.svg';
 import { Link } from 'react-router-dom';
 
 function Nav() {

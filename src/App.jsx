@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Nav from './nav.jsx';
-import Home from './Home.jsx';
-import MyProfile from './Myprofile.jsx';
-import Company from './Company.jsx';
-import Feedback from './Feedback.jsx';
+import Nav from './Components/Navbar/nav.jsx';
+import Home from './Components/Home/Home.jsx';
+import MyProfile from './Components/Myprofile/Myprofile.jsx';
+import Company from './Components/Company/Company.jsx';
+import Feedback from './Components/Feedback/Feedback.jsx';
 import './App.css';
 
 function App() {

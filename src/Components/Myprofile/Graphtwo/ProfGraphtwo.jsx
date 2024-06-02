@@ -14,7 +14,7 @@ const size = {
   width: 400,
   height: 200,
 };
-const pl = ['#875d5d','#ba6645','#e4a000','#265830'];
+const pl = ['rgb(154, 154, 154)','rgb(33, 27, 25)','rgb(24, 56, 130)','rgb(57, 105, 139)'];
 
 const StyledPieChart = styled(PieChart)({
   marginLeft: "8vw",
