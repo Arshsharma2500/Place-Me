@@ -1,4 +1,3 @@
-import { useState } from "react";
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './Myprofile.css';
 import Graph1 from './Graphone/ProfGraphone';
@@ -8,14 +7,13 @@ import ProfilePic from './ProfilePic/Profilepic';
 import StarRate from './Rating/StartRate';
 import Ltcodeimg from '../../assets/leetcodeimg.png';
 import CChefImg from '../../assets/codechefimg.png';
-import HRankImg from '../../assets/hackerrankimg.png';
+import GithubImg from '../../assets/githubUser.png';
 import LdIn from '../../assets/linkedinuserimg.png';
 import ClgIcon from '../../assets/collegeicon.png';
 import InternIcon from '../../assets/internship.png';
 import SklIcon from '../../assets/skillicon.png';
 
 function Profile(){
-    const [count, setCount] = useState(0)
     return(
         <>
         <div className="mid">
@@ -34,7 +32,7 @@ function Profile(){
             <div id="icons">
                 <a href=""><img src={Ltcodeimg} alt="CodeChef" style={{ width: '2.5vw' }}></img></a>
                 <a href=""><img src={CChefImg} alt="CodeChef" style={{ width: '2.5vw' }}></img></a>
-                <a href=""><img src={HRankImg} alt="HackerRank" style={{ width: '2.5vw' }}></img></a>
+                <a href=""><img src={GithubImg} alt="HackerRank" style={{ width: '2.5vw' }}></img></a>
                 <a href=""><img src={LdIn} alt="LinkedIn" style={{ width: '2.5vw' }}></img></a>
             </div>
             <div id="box1">
@@ -74,7 +72,7 @@ function Profile(){
             <div id="row2">
             <div id="r2">
             <div id="circ1">
-            <Graph1 />
+            <Graph1/>
             </div>
             <div id="circ2">
             <Graph2 />

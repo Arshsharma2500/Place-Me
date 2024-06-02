@@ -91,7 +91,6 @@
 
         
 }
-
 .headlink a{
     display: block;
     width: 250px;
@@ -122,7 +121,7 @@
     border-radius: 30px;
     background: transparent linear-gradient(90deg,#6597CB 0%,#35369B 100%) 0% 0% no-repeat;
     transition: all .40s;
-    
+    color: white;
   }
   
 .headlink a:hover{
