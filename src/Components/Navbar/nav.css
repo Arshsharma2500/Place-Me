@@ -17,56 +17,53 @@
     flex-direction: row;
     padding-left: 11vw;
     padding-right: 11vw;
+    justify-content: space-between;
 }
 .list{
-    padding-left: 23vw;
-    width: 45vw;
-    height: 12vh;
+    padding-left: 3vw;
+    width: max-content;
+    height: max-content;
     display: flex;
     flex-direction: row;
-    
     justify-content: end;
     justify-content: space-between;
-    padding-top: 1vh;
+    /* padding-top: 1vh; */
 
 }
-.list p{
-    /* text-decoration: none; */
-    margin-top: 3vh;
+.list li{
     font-weight: 500;
     font-size: large;
     font-family: poppins-regular !important;
     text-shadow: 0 1px 0 rgba(0,0,0,0.5);
-    color: #242424;
-    
+    margin-right: 2vw;
+    text-decoration-color: black;
 }
-#link1{
-    color: #242424;
+.list li:hover{
+    text-decoration: underline;
 }
-#link1:hover{
-    color: #35369B;
-}
-.list button{
-    height: 6vh;
+#signupbutt{
+    width: max-content;
+    height: max-content;
     background: transparent linear-gradient(90deg,#6597CB 0%,#35369B 100%) 0% 0% no-repeat;
-    padding-top: 0vh;
-    margin-top: 1.5vh;
+    /* margin-top: 1.5vh; */
     border-radius: 30px;
     color: white;
     font-weight: 500;
     font-size: large;
-    padding-top: 1vh;
     border-top: 1px solid rgba(0,0,0,0.3);
     text-shadow: 0 1px 0 rgba(0,0,0,0.5);
     -moz-box-shadow: 0 1px 0 rgba(255,255,255,0.05) inset;
     -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.05) inset;
     box-shadow: 0 1px 0 rgba(255,255,255,0.05) inset;
     font-family: poppins-regular !important;
+    padding: 5px;
+    width: 5vw;
 
 }
-.list p:hover{
-    color: hwb(212 20% 36%);
-    cursor: pointer;
+#signupdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .sidepanel{
     display: none;

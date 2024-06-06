@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './nav.css';
-import logo from '../../assets/placeMelogo.svg';
+import logo from '../../assets/logo.svg';
 import { Link } from 'react-router-dom';
 
 function Nav() {
@@ -21,13 +21,19 @@ function Nav() {
       <nav className='nav'>
         <div className='navdiv'>
           <img id="logoimg" src={logo} alt="Logo"/>
-          <div className='list'>
-            <p><Link to="/myprofile">My Profile</Link></p>
-            <p><Link to="">Services</Link></p>
-            <p><Link to="/Company">Company</Link></p>
-            <p><Link to="/feedback">Feedback</Link></p>
-            <p><Link to="">Notifications</Link></p>
-            <button>Sign up</button>
+          <div style={{display: "flex", flexDirection: "column", justifyContent: "center"}}>
+          <div style={{display: "flex", flex: "wrap"}}>
+          <ul className='list'>
+            <li style={{listStyle: "none"}}><Link style={{color: "#333399"}} to="/myprofile" id='linkbutt'>My Profile</Link></li>
+            <li style={{listStyle: "none"}}><Link style={{color: "#333399"}} to="#">Services</Link></li>
+            <li style={{listStyle: "none"}}><Link style={{color: "#333399"}} to="/Company">Company</Link></li>
+            <li style={{listStyle: "none"}}><Link style={{color: "#333399"}} to="/feedback">Feedback</Link></li>
+            <li style={{listStyle: "none"}}><Link style={{color: "#333399"}} to="">Notifications</Link></li>
+          </ul>
+          <div id='signupdiv'>
+          <button id='signupbutt'>Sign up</button>
+          </div>
+          </div>
           </div>
 
           {/* It's only for responsive mobile */}
