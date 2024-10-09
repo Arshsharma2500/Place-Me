@@ -2,6 +2,8 @@
 ![placeMe logo](https://github.com/Arshsharma2500/Place-Me/blob/main/image.png)
 
 
+https://arshplaceme.netlify.app/
+
 <h3>Problem Adressed</h3>
 
 Addressing the challenge of tracking placement progress, Place Me provides B.Tech engineering students with a user-friendly solution to monitor their skills, progress, and discover valuable placement opportunities effortlessly.
